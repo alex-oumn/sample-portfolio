@@ -1,0 +1,145 @@
+/**** BASE STYLES ****/ 
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+}
+
+
+/*** GRID ***/ 
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 370px;
+    height: 210px;
+    float: left;
+    border: 1px solid #dedbdc;
+    padding-left: 28px;
+}
+
+/*** HEADER ***/
+header {
+    height: 404px;
+    background-size: cover;
+}
+
+.half-width{
+    padding: 48px 0px 48px 0px;
+}
+header h1 { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right; 
+    padding-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+    
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #9bbc8f;
+}
+
+/*** Note to self: when doing NAV do not have to pad from the left can pad from the right 
+It will still go inline as it is floated and would automatically not crumple  SO PAD FROM RIGHT***/
+
+.full-width img {
+    border-style: solid none solid none;
+    border-width: medium;
+    border-color: #77a466;
+}
+
+
+/*** ABOUT ***/ 
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 18px;
+    color: #9bbc8f;
+    text-transform: uppercase;
+}
+ 
+#about p {
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+}
+
+/*** OVERVIEW ***/
+
+
+#overview h3 {
+    font-size: 12px;
+    line-height: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+ 
+#overview p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#overview ul{
+    color: #77a466;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#overview ul li {
+    padding-top: 5px;
+    padding-bottom: 23px;
+}
+
+
+/*** FOOTER ***/
+
+#slogan {
+    clear: both;
+    width: 100%;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 33px;
+    text-align: center;
+}
+
+
+#slogan span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    font-size: 14px;
+}
